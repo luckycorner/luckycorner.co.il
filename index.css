@@ -54,6 +54,7 @@ body {
 .button-container {
   display: flex;
   justify-content: center;
+  padding-top: 10px;
 }
 
 a.button7 {

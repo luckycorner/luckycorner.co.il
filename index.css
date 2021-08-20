@@ -51,6 +51,20 @@ body {
   transition: 0.3s;
 }
 
+@media all and (max-width:50em) {
+  .gallery {
+    flex-direction: column;
+  }
+  .gallery__column {
+    width: 100%;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
 .button-container {
   display: flex;
   justify-content: center;
